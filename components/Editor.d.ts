@@ -1,3 +1,5 @@
+import { OutputData } from '@editorjs/editorjs'
+
 export interface ImageData {
   src?: Omit<UploadResponse, 'success'>
   captions?: string
@@ -17,4 +19,5 @@ export interface UploadResponse {
 
 export interface EditorProps {
   uploadCallback?: (file: File) => Promise<UploadResponse>
+  saveRef?: React.MutableRefObject<{ save: () => Promise<any> }>
 }
