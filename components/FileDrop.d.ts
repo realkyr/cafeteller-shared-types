@@ -7,4 +7,5 @@ export interface FileDropProps extends CommonProps {
   onClear?: () => void
   loading?: boolean
   innerDivClassName?: string
+  preview?: string | null
 }
