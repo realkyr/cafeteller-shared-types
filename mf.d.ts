@@ -1,5 +1,3 @@
-import { FileDropProps } from './components/FileDrop'
-
 declare module 'core_cafeteller/components' {
   import {
     AddCardProps,
@@ -8,7 +6,8 @@ declare module 'core_cafeteller/components' {
     EditorProps,
     FloatingButtonProps,
     ImageProps,
-    SegmentControlProps
+    SegmentControlProps,
+    FileDropProps
   } from './components'
 
   export const Card: React.FC<CardProps>
