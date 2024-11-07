@@ -1,3 +1,5 @@
+import { FileDropProps } from './components/FileDrop'
+
 declare module 'core_cafeteller/components' {
   import {
     AddCardProps,
@@ -17,6 +19,7 @@ declare module 'core_cafeteller/components' {
   export const Editor: React.FC<EditorProps>
   export const FloatingButton: React.FC<FloatingButtonProps>
   export const SegmentControl: React.FC<SegmentControlProps>
+  export const FileDrop: React.FC<FileDropProps>
 }
 
 declare module 'core_cafeteller/icons' {
