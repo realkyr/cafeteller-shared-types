@@ -1,9 +1,9 @@
-import { OutputData } from '@editorjs/editorjs'
-
 export interface ImageData {
   src?: Omit<UploadResponse, 'success'>
   captions?: string
 }
+
+export type NullableImageData = ImageData | null
 
 export interface URLSImageSrc {
   '@1980': string
