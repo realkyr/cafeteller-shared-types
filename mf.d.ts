@@ -7,7 +7,8 @@ declare module 'core_cafeteller/components' {
     FloatingButtonProps,
     ImageProps,
     SegmentControlProps,
-    FileDropProps
+    FileDropProps,
+    ModalProps
   } from './components'
 
   export const Card: React.FC<CardProps>
@@ -19,6 +20,7 @@ declare module 'core_cafeteller/components' {
   export const FloatingButton: React.FC<FloatingButtonProps>
   export const SegmentControl: React.FC<SegmentControlProps>
   export const FileDrop: React.FC<FileDropProps>
+  export const Modal: React.FC<ModalProps>
 }
 
 declare module 'core_cafeteller/icons' {
